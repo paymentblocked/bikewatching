@@ -3,7 +3,7 @@ import * as d3 from 'https://cdn.jsdelivr.net/npm/d3@7.9.0/+esm';
 
 console.log('Mapbox GL JS Loaded:', mapboxgl);
 
-mapboxgl.accessToken = 'YOUR_ACCESS_TOKEN_HERE';
+mapboxgl.accessToken = 'pk.eyJ1Ijoicm5hbWRhciIsImEiOiJjbXdlbnd5NXEwNHk5MnlvbHd2ZDN0NnBkIn0.44S8RMNtMPpFcje-Fxk8lA';
 
 const map = new mapboxgl.Map({
   container: 'map',
